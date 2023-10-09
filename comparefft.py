@@ -62,6 +62,7 @@ def freq_ncompare(low_samp, high_samp, cutoff=2400):
     plt.show()
 
 
-low_sample_path = "../alliestringsamples/s1n0.wav"
-high_sample_path = "../alliestringsamples/s1n12.wav"
-freq_compare(low_sample_path, high_sample_path, cutoff=1200)
+if __name__ == "__main__":
+    low_sample_path = "../alliestringsamples/s1n0.wav"
+    high_sample_path = "../alliestringsamples/s1n12.wav"
+    freq_compare(low_sample_path, high_sample_path, cutoff=1200)
